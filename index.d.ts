@@ -280,6 +280,7 @@ export interface EventObj {
   requestfailed: Request;
   requestfinished: Request;
   response: Response;
+  screencastframe: Frame;
 }
 
 export interface Page extends FrameBase {
