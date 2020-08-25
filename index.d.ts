@@ -104,7 +104,7 @@ export type EvaluateFn<T> = (elem?: ElementHandle) => Promise<T>;
 
 export interface NavigationOptions {
   timeout?: number;
-  waitUntil?: "load" | "networkidle" | "networkIdleTimeout";
+  waitUntil?: "load" | "networkidle" | "networkIdleTimeout" | "networkidle0" | "networkidle2";
   networkIdleInflight?: number;
   networkIdleTimeout?: number;
 }
